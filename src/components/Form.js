@@ -5,15 +5,15 @@ import React from 'react'
 const Form = () => {
   return (
     <div>
-      <form>
+      <form method="post" action="https://formspree.io/f/xeqwjvpn">
         <label>your Name </label>
-        <input type="text"></input>
+        <input type="text" name="value"></input>
         <label> email </label>
-        <input type="email"></input>
+        <input type="email" name="value"></input>
         <label> subject </label>
-        <input type="text"></input>
+        <input type="text" name="value"></input>
         <label> message </label>
-        <textarea rows="6" placeholder="type your message here "/>
+        <textarea rows="6" placeholder="type your message here" name="value"/>
         <button className="btn">Submit</button>
       </form>
     </div>
